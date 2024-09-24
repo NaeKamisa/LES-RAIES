@@ -1,0 +1,14 @@
+.body{
+    max-width: 100hv;
+    max-height: 100hv;
+    height: 15%;
+    background-image: url("https://raw.githubusercontent.com/NaeKamisa/LES-RAIES/refs/heads/main/Images/travel-holic.net_Maldives_17%201.png?token=GHSAT0AAAAAACX6GWH5WROMOW7MFGHA32EQZXSUPTQ");
+    background-repeat: no-repeat;
+    background-size: 10%;
+
+}
+
+.Titre {
+    color: rgb(255, 0, 0);
+
+}

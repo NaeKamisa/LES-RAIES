@@ -1,0 +1,58 @@
+
+body{
+    background-image: url(../Images/MacBook\ Pro\ 14_\ -\ 1BGALED.png);
+    max-width: 100vw;
+    max-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+
+    
+  
+}
+body img{
+    
+
+}
+
+header{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../Images/travel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:10px ;
+   
+   
+}
+
+header img {
+    width: 50vw;
+
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   font-family: "Nanum Brush Script", cursive;
+   font-style: normal;
+   font-size: 30px;
+   align-content: center;
+   justify-content: center;
+   color: white;
+   gap:100px;
+
+}
+.buttons a {
+    color : white;
+    text-decoration:none ;
+    transition: scale 0.5s;
+}
+.buttons a:hover {
+    text-decoration:underline ;
+    scale : 1.05;
+}
