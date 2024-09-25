@@ -1,5 +1,5 @@
-body {
-background-image: url("/home/namoux/Documents/gits/LES-RAIES/Images/travel-holic.net_Maldives_17 2.png");
+footer {
+background-image: url("../Images/travel-holic.net_Maldives_17 2.png");
 background-repeat: no-repeat;
 background-size: cover;
 font-family: "Nanum Pen Script", cursive;
@@ -45,17 +45,15 @@ font-style: normal;
     font-size: 25px;
 }
 
-a:link {
+.menudubas a:link {
     color: white;
-    text-decoration: none;
+    text-decoration: underline;
+    margin: 0;
   }
 
-  a:visited {
+.menudubas a:visited {
     color: white;
   }
-.menudubas a {
-    margin: 0;
-}
 
 .copyright p {
     margin: 0;
