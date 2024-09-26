@@ -129,7 +129,7 @@ section {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 .ligne1 {
@@ -148,4 +148,14 @@ h3 {
 }
 p {
     margin: 0px;
+}
+.imgacceuil {
+    
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 10 px;
+    align-items: center;
+    justify-items: center;
+    padding-top: 40px;
+
 }

@@ -134,3 +134,8 @@ section {
     font-size: 30px;
     height: 100vh;
 }
+.imgacceuil {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+}
