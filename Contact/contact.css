@@ -1,0 +1,153 @@
+body {
+    background-image: url(../Images/MacBook\ Pro\ 14_\ -\ 1Fond.png);
+    background-size: cover;
+    background-repeat:no-repeat;
+    margin: 0;
+   
+}
+
+header {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../Images/travel.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:10px ;
+    }
+
+    header img {
+    width: 50vw;
+    }
+
+    .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+   font-family: "Nanum Brush Script", cursive;
+   font-style: normal;
+   font-size: 30px;
+   align-content: center;
+   justify-content: center;
+   color: white;
+   gap:150px;
+    }
+
+    .buttons a {
+    color : white;
+    text-decoration:none ;
+    transition: scale 0.5s;
+    }
+
+    .buttons a {
+    color : white;
+    text-decoration:none ;
+    transition: scale 0.5s;
+    }
+
+
+    .buttons a:hover {
+    text-decoration:underline ;
+    scale : 1.05;
+    }
+
+    footer {
+       
+    background-image: url("../Images/travel-holic.net_Maldives_17 2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    .titredubas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+    }
+
+    .titredubas h5 {
+        margin: 0px;
+        font-size: 30px;
+    }
+    
+    .titredubas p {
+        margin: 0px;
+        font-size: 15px;
+    }
+
+    .iconesFIS {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 25px;
+        color: white;
+        padding-right: 20px;
+    }
+
+    .menudubas {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 35px;
+        margin: 0;
+        padding-right: 20px;
+        font-size: 25px;
+    }
+    
+    .menudubas a:link {
+        color: white;
+        text-decoration: none;
+        margin: 0;
+      }
+
+      .menudubas a:hover {
+      text-decoration:underline ;
+      }
+
+    .menudubas a:visited {
+        color: white;
+      }
+
+      .copyright p {
+        margin: 0;
+        font-size: 15px;
+        color: white;
+        padding-left: 10px;
+    }
+
+section {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px ;
+
+}
+
+section img {
+    width: 300px ;
+}
+
+section p {
+    width: 100vh;
+}
+p {
+    font-family: "Nanum Brush Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 30px;
+}
+
+
