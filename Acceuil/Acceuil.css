@@ -55,6 +55,8 @@ header {
     }
 
     footer {
+    position:absolute;             
+    bottom:0; width:100%;
     background-image: url("../Images/travel-holic.net_Maldives_17 2.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,5 +129,23 @@ section {
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
+}
+
+.ligne1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    margin: 20px;
+    padding: 20px;
+    column-gap: 50px;
+    text-align: center;
+ 
+}
+
+h3 {
+    margin: 0px;
+}
+p {
+    margin: 0px;
 }
