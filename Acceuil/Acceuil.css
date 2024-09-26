@@ -1,7 +1,4 @@
 body {
-    background-image: url(../Images/MacBook\ Pro\ 14_\ -\ 1Fond.png);
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0;
 }
 
@@ -16,6 +13,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top:10px ;
+
     }
 
     header img {
@@ -127,6 +125,11 @@ section {
     color: white;
     font-size: 20px;
     min-height: 100vh;
+    background-image: url(../Images/bg.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 
 .ligne1 {
